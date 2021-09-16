@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.com.kuang.dao.BookDao">
+<mapper namespace="com.kuang.dao.BookMapper">
 
     <!--增加一个Book-->
     <insert id="addBook" parameterType="Books">
@@ -30,7 +30,7 @@
     </select>
 
     <!--查询全部Book-->
-    <select id="queryAllBook" resultType="Books">
+    <select id="queryAllBook"  resultType="Books">
         SELECT * from ssmbuild.books
     </select>
 

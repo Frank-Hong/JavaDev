@@ -1,15 +1,15 @@
 package com.kuang.service;
 
-import com.kuang.dao.BookDao;
+import com.kuang.dao.BookMapper;
 import com.kuang.pojo.Books;
 import java.util.List;
 
 public class BookServiceImpl implements BookService {
 
     //调用dao层的操作，设置一个set接口，方便Spring管理
-    private BookDao bookMapper;
+    private BookMapper bookMapper;
 
-    public void setBookMapper(BookDao bookMapper) {
+    public void setBookMapper(BookMapper bookMapper) {
         this.bookMapper = bookMapper;
     }
 

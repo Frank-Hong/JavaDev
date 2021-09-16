@@ -3,7 +3,7 @@ package com.kuang.dao;
 import com.kuang.pojo.Books;
 import java.util.List;
 
-public interface BookDao {
+public interface BookMapper {
 
     //增加一个Book
     int addBook(Books book);
