@@ -6,7 +6,7 @@ import java.util.List;
 public interface BookMapper {
 
     //增加一个Book
-    int addBook(Books book);
+    int addBook(Books books);
 
     //根据id删除一个Book
     int deleteBookById(int id);
